@@ -1,0 +1,4 @@
+[
+  {"file":"01-settings.png","caption":"The General settings tab, where you record the global hotkey (default ⌃⌥G), choose the grid's columns and rows, and set the edge gap.","alt":"HoverGridSnap General settings with hotkey, grid size and edge gap"},
+  {"file":"02-presets.png","caption":"The Presets tab lists the nine default snap layouts as fractional rectangles you can edit, add or restore.","alt":"HoverGridSnap preset editor listing nine window layouts"}
+]

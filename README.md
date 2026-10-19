@@ -1,5 +1,7 @@
 # HoverGridSnap
 
+**🌐 Website:** [turhe123.github.io/hover-grid-snap](https://turhe123.github.io/hover-grid-snap/)
+
 Hover a hotkey to pop up a small grid and click cells to snap the front window anywhere.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -27,7 +29,13 @@ HoverGridSnap is a free, open-source, 100% native, backend-free alternative to p
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-settings.png" alt="HoverGridSnap General settings with hotkey, grid size and edge gap" width="720"></p>
+
+<p align="center"><em>The General settings tab, where you record the global hotkey (default ⌃⌥G), choose the grid&#x27;s columns and rows, and set the edge gap.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-presets.png" alt="HoverGridSnap preset editor listing nine window layouts" width="560"></p>
+
+<p align="center"><em>The Presets tab lists the nine default snap layouts as fractional rectangles you can edit, add or restore.</em></p>
 
 ## Install
 

@@ -1,0 +1,60 @@
+{
+  "seo_title": "Pop-up window snap grid for macOS",
+  "seo_description": "HoverGridSnap is a free, open-source macOS menu bar app. Press a hotkey, drag across a small grid, and snap the front window exactly where you want it.",
+  "hero_title_line1": "Snap any window",
+  "hero_title_accent": "with one drag.",
+  "hero_sub": "Press Control-Option-G to pop up a small grid under your pointer, then click or drag across cells. The front window snaps to that exact rectangle when you let go.",
+  "features_title": "One grid. Every layout.",
+  "features_sub": "A compact, native window manager that does one thing well and stays out of your Dock.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey, your choice",
+      "desc": "Toggle the grid from any app with Control-Option-G by default. Record a different shortcut in Settings and see an inline error if it is unavailable."
+    },
+    {
+      "icon": "cursor",
+      "title": "Click or drag to define a frame",
+      "desc": "Click one cell to fill it, or drag across several to span a rectangle. A translucent live preview shows where the window will land before you release."
+    },
+    {
+      "icon": "sliders",
+      "title": "Configurable grid and gap",
+      "desc": "Choose 1 to 12 columns and rows (6 by 4 by default) and set an edge gap from 0 to 40 points between the window and the screen edge."
+    },
+    {
+      "icon": "window",
+      "title": "Nine editable presets",
+      "desc": "Left Half, Right Third, Centered Large and more are stored as fractional rectangles you can edit. Apply them from the menu bar with keys 1 to 9 or from the grid footer."
+    },
+    {
+      "icon": "display",
+      "title": "Multi-display aware",
+      "desc": "Windows land on the screen under your pointer and respect the menu bar and Dock. Placement uses points, so mixed Retina and non-Retina setups behave."
+    },
+    {
+      "icon": "lock",
+      "title": "Private and menu bar only",
+      "desc": "No Dock icon, no account, no network access and no telemetry. Press Esc or click outside to close the grid, and optionally launch at login."
+    }
+  ],
+  "permissions_step": "Grant Accessibility access when prompted, in System Settings → Privacy & Security → Accessibility, so HoverGridSnap can move and resize windows.",
+  "faq": [
+    {
+      "q": "Is HoverGridSnap really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, subscriptions or paywalls, and an optional Support button links to Ko-fi if you want to chip in."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Accessibility, which is how macOS lets an app read the front window and set its position and size. Without it the grid will not open. It does not request Screen Recording, Microphone or Camera access, and the global hotkey needs no extra permission."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Settings and presets are saved locally in the app's UserDefaults on your Mac. Nothing is sent anywhere, because the app has no backend and makes no network connections."
+    },
+    {
+      "q": "Why is the app not notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to approve it, or build it yourself from source with Xcode."
+    }
+  ]
+}
